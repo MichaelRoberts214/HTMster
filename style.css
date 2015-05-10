@@ -1,0 +1,55 @@
+
+article, footer, nav {
+  border-radius: 5px;
+  background-color: #D3D3D3;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+}
+
+#bottom-footer > ul {
+  text-align: center;
+  list-style-type: none;
+}
+
+#side-bar {
+  float: right;
+  background-color: #3D3D3D;
+  color: #D3D3D3;
+  border-radius: 15px;
+  width: 250px;
+}
+
+form {
+  text-align: center;
+}
+
+nav {
+  float: center;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+h1 {
+  width: 100%;
+  text-align: center;
+}
+
+h2 {
+  padding-top: 6px;
+}
+
+h3 {
+  text-align: center;
+}
+
+section {
+  padding-bottom: 10px;
+}
+
+input {
+  width: 90%;
+  margin: 3px;
+}
+
