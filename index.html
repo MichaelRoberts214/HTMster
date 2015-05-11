@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html>
 <head>
   <title>HTMster</title>
@@ -41,7 +42,25 @@
         </ul>
       </footer>
     </article>
+
+    <article>
+      <h2>Canvas</h2>
+      Draw to a canvas if you don't need to reference pixels later.
+      <br><br>
+      <canvas id="canvas" width="600px" height="400px" />
+
+    </article>
+
+    <article>
+      <h2>SVG</h2>
+      Draw to an SVG if you need to reference pixels later.
+      <svg width="600px" height="400px">
+        <rect width="400px" height="200px" style="fill:#3D3D3D;stroke-width:2;stroke:#FFFFFF" />
+      </svg>
+    </article>
   </section>
+
+  <script src="script.js"></script>
 
   <footer id="bottom-footer">
     <ul>
