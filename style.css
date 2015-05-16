@@ -21,6 +21,11 @@ body {
   width: 250px;
 }
 
+#the-first {
+  border-style: solid;
+  border-color: black;
+}
+
 form {
   text-align: center;
 }
